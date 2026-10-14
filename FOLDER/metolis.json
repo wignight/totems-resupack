@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ESE",
+    "STS",
+    "ESE"
+  ],
+  "key": {
+    "E": "minecraft:echo_shard",
+    "S": "minecraft:sculk_sensor",
+    "T": "minecraft:totem_of_undying"
+  },
+  "result": {
+    "id": "minecraft:totem_of_undying",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Totem de Canto de Alma",
+        "color": "aqua",
+        "italic": false
+      },
+      "minecraft:custom_data": {
+        "metolis": 1
+      },
+      "minecraft:item_model": "metolis:metolis"
+    }
+  }
+}

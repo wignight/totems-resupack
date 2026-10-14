@@ -1,0 +1,29 @@
+TOTEMS COMPLETO (Canto de Alma + Espiritu Silvestre) - Minecraft Java 26.1.2 (sin mods)
+
+Los dos totems son Totems de la inmortalidad con otro nombre y aspecto: conservan los efectos del original.
+
+TOTEM DE CANTO DE ALMA (nombre cian)
+Mientras lo llevas en cualquier mano te da +4 corazones (8 de vida maxima).
+  E S E   E = Fragmento de eco
+  S T S   S = Sensor de sculk
+  E S E   T = Totem de la inmortalidad
+
+TOTEM DEL ESPIRITU SILVESTRE (nombre verde)
+Mientras lo llevas en cualquier mano te da Velocidad I y Salto I.
+  G A G   G = Bayas luminosas        A = Fragmento de amatista
+  S T S   S = Hoja de goteo pequena  T = Totem de la inmortalidad
+  M B M   M = Bloque de musgo        B = Hoja de goteo grande
+
+INSTALACION
+1. Datapacks: copia datapack_canto_de_alma y datapack_brote_silvestre a <mundo>/datapacks/
+   (borra cualquier datapack_metolis viejo) y ejecuta /reload.
+2. Resource pack: sube ResourcePack_Combinado.zip a un link directo y en server.properties
+   (con el servidor apagado) pone:
+   resource-pack=<tu link directo>
+   resource-pack-sha1=d5478d4dafba5a830a30c30b6a79c64c9aacb8b4
+   require-resource-pack=true
+3. Inicia el servidor.
+
+PARA PROBARLOS
+/give @s minecraft:totem_of_undying[minecraft:custom_name={text:"Totem de Canto de Alma",color:"aqua",italic:false},minecraft:item_model="metolis:metolis"]
+/give @s minecraft:totem_of_undying[minecraft:custom_name={text:"Totem del Espíritu Silvestre",color:"green",italic:false},minecraft:item_model="brote:brote"]
